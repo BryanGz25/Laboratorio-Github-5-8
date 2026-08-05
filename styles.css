@@ -23,11 +23,17 @@ button {
     border: none;
 }
 
+.lista-articulos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .articulo {
     background-color: white;
     border: 2px solid brown;
     margin: 15px;
     padding: 15px;
+    width: 200px;
 }
 
 .articulo h3 {
