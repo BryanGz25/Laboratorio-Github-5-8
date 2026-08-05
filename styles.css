@@ -8,38 +8,69 @@ body {
 .titulo-medieval {
     position: relative;
     text-align: center;
-    padding: 40px;
+    padding: 80px 20px;
+    overflow: hidden;
 }
 
-.circulo-runas {
-    width: 230px;
-    height: 230px;
-    border: 4px solid brown;
-    border-radius: 50%;
-    color: rgba(139, 69, 19, 0.35);
+.marca {
+    position: relative;
+    z-index: 2;
+}
+
+.marca p {
+    color: #6b2d1d;
     font-family: 'Uncial Antiqua', cursive;
-    font-size: 28px;
-    line-height: 70px;
-    padding: 20px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.runa {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    color: rgba(100, 55, 25, 0.28);
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 58px;
+    z-index: 1;
+}
+
+.runa-1 {
+    left: 20%;
+    top: 25px;
+}
+
+.runa-2 {
+    right: 22%;
+    top: 30px;
+}
+
+.runa-3 {
+    left: 12%;
+    top: 105px;
+}
+
+.runa-4 {
+    right: 12%;
+    top: 105px;
+}
+
+.runa-5 {
+    left: 32%;
+    bottom: 20px;
+}
+
+.runa-6 {
+    right: 32%;
+    bottom: 20px;
 }
 
 h1 {
     position: relative;
-    color: brown;
+    color: #4b1f14;
     text-align: center;
     font-family: 'Uncial Antiqua', cursive;
-    font-size: 50px;
-    text-shadow: 3px 3px 2px #d6b36a;
-    letter-spacing: 2px;
-}
-
-h1 i {
-    color: darkred;
-    margin: 0 15px;
+    font-size: 60px;
+    text-shadow: 2px 2px 0 #d6b36a;
+    letter-spacing: 1px;
+    margin: 10px 0 0;
 }
 
 h2 {
