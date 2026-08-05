@@ -33,12 +33,15 @@ button {
 .lista-articulos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
 }
 
 .articulo {
     background-color: white;
     border: 2px solid brown;
-    margin: 15px;
+    margin: 0;
     padding: 15px;
     width: 200px;
 }
