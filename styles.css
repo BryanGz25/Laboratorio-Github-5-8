@@ -16,6 +16,11 @@ h2 {
     color: darkred;
 }
 
+.texto-principal {
+    font-family: 'Uncial Antiqua', cursive;
+    text-align: center;
+}
+
 button {
     background-color: brown;
     color: white;
