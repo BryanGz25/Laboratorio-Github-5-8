@@ -39,13 +39,39 @@ button {
 }
 
 .articulo {
-    background-color: white;
+    background-color: #fff8e6;
     border: 2px solid brown;
     margin: 0;
     padding: 15px;
     width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px gray;
 }
 
 .articulo h3 {
     color: darkred;
+}
+
+.icono {
+    background-color: #3b2415;
+    border: 2px solid brown;
+    color: #f1c45b;
+    font-size: 32px;
+    margin: auto;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+.zona-comprar {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.boton-comprar {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 20px;
 }
