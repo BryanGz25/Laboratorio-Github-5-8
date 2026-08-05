@@ -8,6 +8,8 @@ body {
 h1 {
     color: brown;
     text-align: center;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 45px;
 }
 
 h2 {
