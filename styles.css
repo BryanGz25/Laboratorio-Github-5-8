@@ -3,6 +3,19 @@ body {
     font-family: Arial, sans-serif;
     color: black;
     padding: 20px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.fondo-arbol {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    color: rgba(80, 45, 20, 0.08);
+    font-size: 520px;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .titulo-medieval {
