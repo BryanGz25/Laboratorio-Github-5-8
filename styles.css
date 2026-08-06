@@ -103,15 +103,31 @@ button {
     background-color: #fff8e6;
     border: 2px solid brown;
     margin: 0;
-    padding: 15px;
-    width: 200px;
+    padding: 20px;
+    width: 210px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px gray;
+    transition: 0.3s;
+}
+
+.articulo:hover {
+    background-color: #fff0c2;
+    border-color: #8b1e16;
+    box-shadow: 0 8px 18px #8a6a3a;
+    transform: translateY(-8px);
 }
 
 .articulo h3 {
     color: darkred;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.articulo p {
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .icono {
@@ -125,6 +141,12 @@ button {
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
+}
+
+.valor {
+    color: #6b2d1d;
+    font-weight: bold;
+    margin-top: 18px;
 }
 
 .zona-comprar {
