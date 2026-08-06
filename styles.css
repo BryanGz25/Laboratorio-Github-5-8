@@ -20,6 +20,70 @@ body::before {
     pointer-events: none;
 }
 
+.runas-fondo {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.runa-fondo {
+    position: absolute;
+    color: rgba(100, 55, 25, 0.18);
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 42px;
+}
+
+.r1 {
+    left: 8%;
+    top: 18%;
+}
+
+.r2 {
+    right: 10%;
+    top: 22%;
+}
+
+.r3 {
+    left: 18%;
+    top: 48%;
+}
+
+.r4 {
+    right: 18%;
+    top: 50%;
+}
+
+.r5 {
+    left: 7%;
+    bottom: 18%;
+}
+
+.r6 {
+    right: 8%;
+    bottom: 16%;
+}
+
+.r7 {
+    left: 42%;
+    top: 28%;
+}
+
+.r8 {
+    right: 36%;
+    bottom: 24%;
+}
+
+.r9 {
+    left: 30%;
+    bottom: 10%;
+}
+
+.r10 {
+    right: 28%;
+    top: 12%;
+}
+
 .titulo-medieval {
     position: relative;
     text-align: center;
