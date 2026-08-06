@@ -158,6 +158,19 @@ h2 {
     font-family: 'Uncial Antiqua', cursive;
 }
 
+h2 i {
+    margin: 0 12px;
+    color: #4b1f14;
+}
+
+h2 i:first-child {
+    transform: rotate(-35deg);
+}
+
+h2 i:last-child {
+    transform: rotate(35deg);
+}
+
 .texto-principal {
     font-family: 'Uncial Antiqua', cursive;
     text-align: center;
@@ -209,17 +222,12 @@ button {
     line-height: 1.4;
 }
 
-.icono {
-    background-color: #3b2415;
-    border: 2px solid brown;
-    color: #f1c45b;
-    font-size: 32px;
-    margin: auto;
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 50px;
+.imagen-articulo {
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 4px 5px rgba(59, 36, 21, 0.35));
 }
 
 .valor {
