@@ -7,76 +7,17 @@ body {
     min-height: 100vh;
 }
 
-.fondo-arbol {
+body::before {
+    content: "";
     position: fixed;
-    left: 50%;
-    top: 58%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    height: 620px;
+    inset: 0;
+    background-image: url("https://marcosplanet.blog/wp-content/uploads/2021/05/Arbol-sagrado.jpg");
+    background-repeat: no-repeat;
+    background-position: center 55%;
+    background-size: 760px;
+    opacity: 0.09;
     z-index: -1;
     pointer-events: none;
-    opacity: 0.12;
-}
-
-.tronco {
-    background-color: #3b2415;
-    width: 28px;
-    height: 520px;
-    position: absolute;
-    left: 386px;
-    bottom: 0;
-    border-radius: 20px;
-}
-
-.rama {
-    background-color: #3b2415;
-    height: 18px;
-    position: absolute;
-    border-radius: 20px;
-    transform-origin: left center;
-}
-
-.rama-1 {
-    width: 300px;
-    left: 400px;
-    top: 120px;
-    transform: rotate(-28deg);
-}
-
-.rama-2 {
-    width: 260px;
-    left: 395px;
-    top: 190px;
-    transform: rotate(24deg);
-}
-
-.rama-3 {
-    width: 340px;
-    left: 405px;
-    top: 280px;
-    transform: rotate(-18deg);
-}
-
-.rama-4 {
-    width: 310px;
-    left: 390px;
-    top: 350px;
-    transform: rotate(20deg);
-}
-
-.rama-5 {
-    width: 260px;
-    left: 395px;
-    top: 80px;
-    transform: rotate(200deg);
-}
-
-.rama-6 {
-    width: 330px;
-    left: 395px;
-    top: 250px;
-    transform: rotate(160deg);
 }
 
 .titulo-medieval {
